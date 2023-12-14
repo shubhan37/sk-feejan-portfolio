@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* color */
+:root {
+  --black-100: #020301;
+  --black-20: #cecfcd;
+  --black-30: #9e9f9a;
+  --black-50: #3d3f35;
+  --black-60: #0c0f03;
+  --black-70: #0a0c02;
+  --Blue: #3463e5;
+  --Green: #01cc65;
+  --Primary: #c8f031;
+  --White: #ffffff;
+  --color1: #120435;
+  --color2: #000000;
+  --color3: #faffe8;
+}
+/* nav-bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6875rem 6.25rem;
+  border-bottom: 1px solid var(--black-20);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#logo {
+  color: var(--black-100);
+  font-family: "Bai Jamjuree";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+ul {
+  display: flex;
+  gap: 2.75rem;
+}
+a {
+  text-decoration: none;
+  color: var(--black-100);
+  font-family: "Bai Jamjuree";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+li {
+  list-style: none;
+}
+/* first-page */
+#first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6.18rem 6.25rem;
+}
+#firstt {
+  display: flex;
+  flex-direction: column;
+  gap: 2.125rem;
+}
+#firstt >h3 {
+  color: var(--black-70);
+  font-family: "Bai Jamjuree";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#firstt > h1 {
+  color: var(--black-70);
+  font-family: "Bai Jamjuree";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#firstt > p{
+  color: var(--black-50);
+  font-family: "Bai Jamjuree";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  max-width: 60%;
+}
+#firstt > div {
+  display: flex;
+  gap: 1.5rem;
+}
+#but1 {
+  display: flex;
+  padding: 0.6875rem 2.125rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  border: 1px solid var(--black-60);
+  background: var(--Primary);
+  color: #000;
+  font-family: "Bai Jamjuree";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#but2 {
+  display: flex;
+  padding: 0.6875rem 2.125rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  border: 1px solid var(--black-60);
+  background: var(--White);
+  color: #000;
+  font-family: "Bai Jamjuree";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#ellipse {
+  min-width: 20rem;
+  min-height: 20rem;
+  border-radius: 30rem;
+  background: url(skfeejan.png), lightgray 50% / cover no-repeat;
+  background-color: var(--Primary);
+}
+#svg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5625rem 6.25rem;
+    background-color: #0C0F03;
+}
