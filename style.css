@@ -45,13 +45,12 @@ ul {
 #section-1 {
   max-width: 100%;
   max-height: 100%;
-  height: 77vh;
+  height: 75.1vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 0rem 6.25rem;
-  
 }
 #logo {
   color: var(--Black-100);
@@ -151,13 +150,32 @@ ul {
 }
 #svgg {
   width: 100%;
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
 #svg {
   display: flex;
   justify-content: space-between;
-  align-items: end;
   padding: 1.5rem 6.25rem;
   background: #0c0f03;
+}
+#section-2 {
+  display: flex;
+  width: 100%;
+  padding: 4.3125rem 6.25rem;
+  gap: 4.875rem;
+  flex-shrink: 0;
+}
+#svgg1 {
+  position: relative;
+  top: 0;
+  flex-shrink: 0;
+}
+#s2h3 {
+  width: 50%;
+  color: var(--Black-100, #020301);
+  font-family: "Bai Jamjuree";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
 }
