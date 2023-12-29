@@ -162,9 +162,10 @@ ul {
 #section-2 {
   display: flex;
   width: 100%;
-  padding: 4.3125rem 6.25rem;
+  padding: 6rem 6.25rem;
   gap: 4.875rem;
   flex-shrink: 0;
+  background: #faffe8;
 }
 #svgg1 {
   position: relative;
@@ -172,10 +173,76 @@ ul {
   flex-shrink: 0;
 }
 #s2h3 {
-  width: 50%;
+  width: 35%;
   color: var(--Black-100, #020301);
   font-family: "Bai Jamjuree";
-  font-size: 3rem;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 600;
+}
+#element1 {
+  display: flex;
+  flex-direction: column;
+  padding: 2.625rem 1.375rem 2.5625rem 1.4375rem;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--Black-100, #020301);
+  background: var(--Primary);
+  gap: 0.75rem;
+  position: relative;
+  left: 12rem;
+  top: -2.2rem;
+}
+#element1:hover {
+  transition: all 0.5s ease;
+  box-shadow: 5px 5px 0px 0px #000;
+}
+#element1 h3 {
+  color: var(--Black-100, #020301);
+  font-family: "Bai Jamjuree";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#element p {
+  color: var(--Black-100, #020301);
+  font-family: "Bai Jamjuree";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#element2 {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5625rem 0.96875rem 2.625rem 0.96875rem;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--Black-100, #020301);
+  background: var(--Green);
+  gap: 0.75rem;
+  position: relative;
+  right: -12rem;
+  bottom: -3.3rem;
+}
+#element2:hover {
+  transition: all 0.5s ease;
+  box-shadow: 5px 5px 0px 0px #000;
+}
+#element2 h3 {
+  color: var(--Black-100, #020301);
+  font-family: "Bai Jamjuree";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#element2 p {
+  color: var(--Black-100, #020301);
+  font-family: "Bai Jamjuree";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
