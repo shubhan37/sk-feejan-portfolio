@@ -194,10 +194,7 @@ ul {
   top: -2.2rem;
   animation: ani 3s;
 }
-/* #element1:hover{
-  transition: all 0.5s ease;
-  box-shadow: 5px 5px 0px 0px #000;
-} */
+
 @keyframes ani{
   from{
 
@@ -237,10 +234,10 @@ ul {
   animation: ani 3s;
   animation-delay: 1s;
 }
-/* #element2:hover {
+#element2:hover {
   transition: all 0.5s ease;
   box-shadow: 5px 5px 0px 0px #000;
-} */
+}
 #element2 h3 {
   color: var(--Black-100, #020301);
   font-family: "Bai Jamjuree";
