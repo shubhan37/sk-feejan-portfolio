@@ -194,15 +194,14 @@ ul {
   top: -2.2rem;
   animation: ani 3s;
 }
-#element1:hover{
+#element1:hover {
   transition: all 0.5s ease;
   box-shadow: 5px 5px 0px 0px #000;
 }
-@keyframes ani{
-  from{
-
+@keyframes ani {
+  from {
   }
-  to{
+  to {
     box-shadow: 5px 5px 0px 0px #000;
   }
 }
@@ -253,6 +252,91 @@ ul {
   color: var(--Black-100, #020301);
   font-family: "Bai Jamjuree";
   font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#section-3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 7.1rem;
+  gap: 5.5rem;
+}
+#section-3 h3 {
+  color: var(--Black-100);
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#compo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.4375rem;
+}
+#compo1 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding: 2.1875rem 3.5625rem 2.5625rem 1.625rem;
+  align-items: flex-start;
+  gap: 1.1875rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--Black-60, #0c0f03);
+  background: #fff;
+}
+#compo1:hover{
+  box-shadow: 5px 5px 0px 0px #000;
+}
+#compo2 {
+  display: flex;
+  flex-direction: column;
+  padding: 2.1875rem 0.9375rem 2.5625rem 1.625rem;
+  align-items: flex-start;
+  gap: 1.1875rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--Black-60, #0c0f03);
+  background: #fff;
+}
+#compo2:hover{
+  box-shadow: 5px 5px 0px 0px #000;
+}
+#compo2 p{
+  width: 75%;
+}
+#compo3 {
+  display: flex;
+  flex-direction: column;
+  padding: 2.1875rem 0rem 2.5625rem 1.625rem;
+  align-items: flex-start;
+  gap: 1.1875rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--Black-60, #0c0f03);
+  background: #fff;
+}
+#compo3:hover{
+  box-shadow: 5px 5px 0px 0px #000;
+}
+#compo3 p{
+  width: 85%;
+}
+#compo h4 {
+  color: var(--Black-100);
+  text-align: center;
+  font-family: "Bai Jamjuree" s;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#compo p {
+  color: var(--Black-50);
+  font-family: "Bai Jamjuree";
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
