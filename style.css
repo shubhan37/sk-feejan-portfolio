@@ -288,8 +288,10 @@ ul {
   border-radius: 0.5rem;
   border: 1px solid var(--Black-60, #0c0f03);
   background: #fff;
+  
 }
-#compo1:hover{
+#compo1:hover {
+  transition: all 0.5s ease;
   box-shadow: 5px 5px 0px 0px #000;
 }
 #compo2 {
@@ -302,10 +304,11 @@ ul {
   border: 1px solid var(--Black-60, #0c0f03);
   background: #fff;
 }
-#compo2:hover{
+#compo2:hover {
+  transition: all 0.5s ease;
   box-shadow: 5px 5px 0px 0px #000;
 }
-#compo2 p{
+#compo2 p {
   width: 75%;
 }
 #compo3 {
@@ -318,10 +321,11 @@ ul {
   border: 1px solid var(--Black-60, #0c0f03);
   background: #fff;
 }
-#compo3:hover{
+#compo3:hover {
+  transition: all 0.5s ease;
   box-shadow: 5px 5px 0px 0px #000;
 }
-#compo3 p{
+#compo3 p {
   width: 85%;
 }
 #compo h4 {
