@@ -192,10 +192,19 @@ ul {
   position: relative;
   left: 12rem;
   top: -2.2rem;
+  animation: ani 3s;
 }
-#element1:hover {
+/* #element1:hover{
   transition: all 0.5s ease;
   box-shadow: 5px 5px 0px 0px #000;
+} */
+@keyframes ani{
+  from{
+
+  }
+  to{
+    box-shadow: 5px 5px 0px 0px #000;
+  }
 }
 #element1 h3 {
   color: var(--Black-100, #020301);
@@ -225,6 +234,9 @@ ul {
   position: relative;
   right: -12rem;
   bottom: -3.3rem;
+  animation: ani 3s;
+  animation-delay: 1s;
+
 }
 #element2:hover {
   transition: all 0.5s ease;
