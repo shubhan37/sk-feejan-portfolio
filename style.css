@@ -260,7 +260,7 @@ ul {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 7.1rem;
+  padding: 6.25rem;
   gap: 5.5rem;
 }
 #section-3 h3 {
@@ -288,7 +288,6 @@ ul {
   border-radius: 0.5rem;
   border: 1px solid var(--Black-60, #0c0f03);
   background: #fff;
-  
 }
 #compo1:hover {
   transition: all 0.5s ease;
@@ -344,4 +343,25 @@ ul {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+#section-4 {
+}
+#head4 {
+  display: flex;
+  flex-direction: rwo;
+}
+#head4 h2 {
+  width: 40%;
+  color: var(--Black-100);
+  font-family: "Bai Jamjuree";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#head4 img {
+  position: relative;
+  left:-7rem;
+  top: -1rem;
+  transform: rotate(355deg);
 }
